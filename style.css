@@ -7,19 +7,33 @@ body {
 }
 
 .content {
-   margin-left: 80px;
+   margin-left: 300px;
    margin-top: 17%;
+   display: inline-block;
+   border-radius: 10px;
+   background-color: rgba(71, 71, 71, 0.5);
+   opacity: 0.7;
 }
 
 input, button {
     margin-left: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 h1 {
     color: aliceblue;
+    padding: 10px;
 }
 
 #refresh {
     margin-top: 20px;
     margin-left: 150px;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #6b3333;
+    color: rgb(238, 238, 238);
 }
